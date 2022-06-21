@@ -100,6 +100,11 @@ sudo apt install -y gparted sysbench p7zip-full
 
 
 ### CONFIGURE SYSTEM ###
+## ADD PATH
+nano ~/.bashrc
+export PATH="/home/atilla/.local/bin:$PATH" # ADD THIS LINE TO THE END OF THE FILE
+source ~/.bashrc
+
 ## Disabling Swap Memory
 sudo swapoff -a
 
@@ -177,23 +182,28 @@ sudo flatpak update
 ### SOFTWARE DEVELOPMENT ###
 
 ## VIM
-sudo apt install vim
+sudo apt install -y vim
 
 ## UMAKE
-sudo apt install ubuntu-make
+sudo apt install -y ubuntu-make
 
 ## PYTHON
+sudo apt remove python3-jinja2
+
 sudo apt install -y python3-pip python3-dev python3-venv
 pip3 install numpy
+pip3 install matplotlib
+pip3 install Jinja2
+pip3 install notebook
 
 ## JAVA
-sudo apt install default-jre
+sudo apt install -y default-jre
 java -version
-sudo apt install default-jdk
+sudo apt install -y default-jdk
 javac -version
 
 ## RUBY
-sudo apt install ruby-full
+sudo apt install -y ruby-full
 ruby -v
 
 ## PERL
