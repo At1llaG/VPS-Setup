@@ -70,25 +70,25 @@ sudo apt autoremove -y
 
 
 ### INSTALL DEVELOPMENT DEPENDENCIES ###
-sudo apt install -y git apt-transport-https build-essential procps curl file git libz-dev \
+sudo apt install -y git apt-transport-https build-essential procps curl file git zlib1g-dev \
     libssl-dev libexpat1-dev gettext cmake gcc openssh-server \
-    software-properties-common build-essential zlib1g-dev libncurses5-dev libgdbm-dev \
+    software-properties-common build-essential zlib1g-dev libncurses-dev libgdbm-dev \
     libnss3-dev libssl-dev libreadline-dev libffi-dev wget build-essential libssl-dev \
     libffi-dev python3-dev apt-transport-https ca-certificates curl software-properties-common \
     nano git apt-transport-https ca-certificates gnupg2 software-properties-common \
-    gnupg-agent dirmngr git-core zlib1g-dev build-essential libssl-dev libdb-dev \
+    gnupg-agent dirmngr git zlib1g-dev build-essential libssl-dev libdb-dev \
     libreadline-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt1-dev xvfb \
-    software-properties-common libffi-dev ca-certificates gnupg libcurl4 \
+    software-properties-common libffi-dev ca-certificates gnupg libcurl4t64 \
     lsb-release manpages-dev git gnupg flex bison gperf build-essential zip libc6-dev \
-    libncurses5-dev x11proto-core-dev libx11-dev libreadline6-dev libgl1-mesa-glx \
+    x11proto-core-dev libx11-dev libreadline-dev \
     libgl1-mesa-dev tofrodos python3-markdown libxml2-utils xsltproc zlib1g-dev \
-    build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev \
-    libreadline-dev libffi-dev libbz2-dev unzip  libxi6 libgconf-2-4 \
+    build-essential zlib1g-dev libgdbm-dev libnss3-dev libssl-dev libsqlite3-dev \
+    libreadline-dev libffi-dev libbz2-dev unzip  libxi6 \
     build-essential libssl-dev libffi-dev build-essential procps file git \
     openssh-server g++ gcc autoconf automake bison libc6-dev libffi-dev libgdbm-dev \
-    libncurses5-dev libsqlite3-dev libtool libyaml-dev make pkg-config sqlite3 zlib1g-dev \
+    libsqlite3-dev libtool libyaml-dev make pkg-config sqlite3 zlib1g-dev \
     libgmp-dev libreadline-dev libssl-dev git autoconf bison build-essential libssl-dev \
-    libyaml-dev libreadline6-dev zlib1g-dev libncurses5-dev libffi-dev libgdbm6 libgdbm-dev
+    libyaml-dev zlib1g-dev libffi-dev libgdbm6t64 libgdbm-dev
 
 
 ### NETWORK DEPENDENCIES ###
